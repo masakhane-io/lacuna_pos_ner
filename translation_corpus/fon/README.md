@@ -1,1 +1,1 @@
-Add French-Fon corpus here
+French sentences from Benin news websites, to be translated

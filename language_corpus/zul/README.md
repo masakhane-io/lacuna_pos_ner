@@ -1,7 +1,7 @@
 ______________________________________________
 ## README: Lacuna Project: IsiZulu
 ______________________________________________
-IsiZulu resource data: Monolingual corpus to be used to annotate Named entities and Parts of Speech.
+IsiZulu resource data: Monolingual corpus for NER/POS annotation.
 
 This directory contains IsiZulu data to be annotated into named entities and part of speech tags
 Data contanins 105,703 tokens collected from the isiXhosa Isolezwe online newpaper:
@@ -19,10 +19,7 @@ Number of articles per category:
 |IMIBONO	 |	70   |
 |INTANDOKAZI	 |	70   |
 |IMPILO-YABANTU	 |	70   |
-|-----------------|------------|
-|                 | 420 |
-
-IZINDABA, EZOKUNGCEBELEKA, EZEMIDLALO, IMIBONO, INTANDOKAZI, IMPILO-YABANTU
+|         Total        | 420 |
 
 
 

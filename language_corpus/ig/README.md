@@ -4,7 +4,7 @@ ______________________________________________
 Igbo resource data: Monolingual corpus for NER/POS annotation.
 
 This directory contains Igbo data to be annotated into named entities and part of speech tags
-Data contanins 8000 sentences and 27236 unique tokens obtained from [IgboRadio](https://www.igboradio.com/) and [Kaoditaa](https://kaoditaa.com/):
+Data contanins 8000 sentences and approximate 27236 unique tokens obtained from [IgboRadio](https://www.igboradio.com/) and [Kaoditaa](https://kaoditaa.com/):
 
 ______________________________________________
 

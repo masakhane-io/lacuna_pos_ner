@@ -13,6 +13,13 @@ This directory contains the Hausa data to be annotated for named entity recognit
 
 The data consist of sport articles, world news and local Kano news. This distribution of the articles are:
 
-* 5700 sentences on world news
-* 2000 sentences on sport news
+* 5200 sentences on world news
+* 1500 sentences on sport news
 * 1335 sentences on local kano news
+
+***
+## Licence
+
+These files are distributed under the Creative Commons Attribution CC 4.0.
+
+

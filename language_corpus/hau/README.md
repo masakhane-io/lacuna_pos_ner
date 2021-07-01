@@ -6,4 +6,7 @@
 
 Hausa resource data for Named Entity Recognition and Part Of Speech Tagging: Not Annotated
 
-This directory contains the Hausa data to be annotated for named entity recognitino and part of speech tags. The data contains 8000 sentences from two Hausa news websites 
+This directory contains the Hausa data to be annotated for named entity recognitino and part of speech tags. The data contains 8000 sentences from two Hausa news websites:
+
+* **[Freedom Radio](https://www.freedomradionig.com)**
+* **[Kano Focus](https://www.kanofocus.com)**

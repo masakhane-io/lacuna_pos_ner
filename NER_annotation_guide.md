@@ -43,35 +43,39 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 	* **AU** [ORG]
 * Proper names referring to facilities e.g factories, hotels, universities, airports, hospitals, churches **except (a)** the name is clearly the name of the structure/place and not of an organization, **or (b)** the name is known to be the name of an organization but is used only in reference to the facility as a structure/place. Example:
 
-	* The Frankfurt Airport Management has new rules for Aircraft.
-	* I am traveling from the Frankfurt Airport ...will not be tagged since it appeared as a LOC
-	* I will stay at the IBIS Hotel [ORG]
-	* The Supreme Court of Nigeria [ORG]
+	* The **Frankfurt Airport Management** has new rules for Aircraft.
+		* I am traveling from the Frankfurt Airport ...will not be tagged since it appeared as a LOC
+	* I will stay at the **IBIS Hotel** [ORG]
+	* The **Supreme Court of Nigeria** [ORG]
 	* The convict will be taken to court.
-	* The patient will be transferred to the General Hospital Ikoyi.
+	* The patient will be transferred to the **General Hospital Ikoyi**.
 	* The patient is in the hospital.
 
 ## Location Annotation [LOC] - - GPE and non-GPE
-All country names,region names, state names and city names.
-United States of America [LOC]
-USA [LOC]
-Cape Town [LOC]
-Niger Delta Region [LOC]
-Multiword expressions in which place names are separated by a comma are to be tagged as separate instances of LOCATION. Example:
-Cairo [LOC], Egypt [LOC]
-Washington [LOC] , D.C. [LOC]
-Do not label Nationalities and street addresses as locations.
-An American is traveling to Abuja [LOC]
-A Nigerian hospital
-53140 Gatchell Road
-Place names can sometimes be part of an organization. The annotation will follow these guidelines: (a) If there is a corporate designator, it marks the end of the organization name; (b) if there is no corporate designator, the "of " is part of the organization name. Example:
+* All country names,region names, state names and city names.
+	* **United States of America** [LOC]
+	* **USA** [LOC]
+	* **Cape Town** [LOC]
+	* **Niger Delta Region** [LOC]
+	
+* Multiword expressions in which place names are separated by a comma are to be tagged as separate instances of LOCATION. Example:
+	* **Cairo** [LOC], **Egypt** [LOC]
+	* **Washington** [LOC] , **D.C.** [LOC]
+	
+* Do not label Nationalities and street addresses as locations.
+	* An American is traveling to **Abuja** [LOC]
+	* A Nigerian hospital
+	* 53140 Gatchell Road
+
+* Place names can sometimes be part of an organization. The annotation will follow these guidelines: (a) If there is a corporate designator, it marks the end of the organization name; (b) if there is no corporate designator, the "of " is part of the organization name. Example:
  
-Hyundai of Korea, Inc. [ORG]
-Hyundai, Inc.[ORG] of Korea [LOC]
-John [PER] is working in BOSCH [ORG], Germany [LOC].
-University of California [ORG] in Los Angeles [LOC]
-Non-GPE locations like mountain name, river name, body of water should be tagged e.g
-	River Niger 
+	* Hyundai of Korea, Inc. [ORG]
+	* Hyundai, Inc.[ORG] of **Korea** [LOC]
+	* John [PER] is working in BOSCH [ORG], **Germany** [LOC].
+	* University of California [ORG] in **Los Angeles** [LOC]
+	
+* Non-GPE locations like mountain name, river name, body of water should be tagged e.g
+	* **River Niger** 
 
 ## DATE Annotation [DATE]
 Tag all absolute and relative dates or periods, including days, months, years. We could combine DATE and TIME annotation as [DATETIME]

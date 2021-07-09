@@ -1,9 +1,14 @@
-Named Entity Recognition Annotation Guideline
+# Named Entity Recognition Annotation Guideline
+
 Named Entity Recognition (NER) is a classification task that identifies phrases in a text that refer to entities or predefined categories (such as dates, person, organization and location names).
-Example of NER: John [PERSON] is going to Kenya [LOCATION] on Monday [DATE]
+
+* Example of NER: John [PERSON] is going to Kenya [LOCATION] on Monday [DATE]
+
 For annotation, we will be following the Message Understanding Conference (MUC-6) named entity definition guideline for identifying Persons, organizations, locations, dates and times, see https://cs.nyu.edu/faculty/grishman/NEtask20.book_1.html
+
 You may also use https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v6.6.pdf 
-Person Annotation [PER]
+
+## Person Annotation [PER]
 Personal names (including first names, middle names and last names) should be tagged excluding titles e.g Mr, Mrs, President, Professor, e.t.c. Examples:
 President Donald Trump [PER]
 Donald Trump Jr. [PER]
@@ -21,7 +26,7 @@ Nobel Prize
 George Washington University was established in 1821.
 The White House is located in Washington.
 
-Organization Annotation [ORG]
+## Organization Annotation [ORG]
 Corporate designations such as "Co." are organizations. Example:
 The Bridgestone Sports Co. 
 Proper names that include sports teams, stock exchanges, multinational organizations, political parties, unions, government parastatals. Many of them comes in abbreviations e.g WHO, NCDC, NASDAQ, EU, AU
@@ -35,7 +40,8 @@ The Supreme Court of Nigeria [ORG]
 The convict will be taken to court.
 The patient will be transferred to the General Hospital Ikoyi.
 The patient is in the hospital.
-Location Annotation [LOC] - - GPE and non-GPE
+
+## Location Annotation [LOC] - - GPE and non-GPE
 All country names,region names, state names and city names.
 United States of America [LOC]
 USA [LOC]
@@ -56,7 +62,8 @@ John [PER] is working in BOSCH [ORG], Germany [LOC].
 University of California [ORG] in Los Angeles [LOC]
 Non-GPE locations like mountain name, river name, body of water should be tagged e.g
 	River Niger 
-DATE Annotation [DATE]
+
+## DATE Annotation [DATE]
 Tag all absolute and relative dates or periods, including days, months, years. We could combine DATE and TIME annotation as [DATETIME]
 Absolute date expressions are to be tagged. Absolute date expression must indicate a specific segment of date i.e the particular day, season, financial quarters, years, decade or a particular century. Example:
 Monday [DATE]
@@ -83,7 +90,7 @@ Expression indicating periods between two dates should be tagged. Example:
 We are on vacation between July 1 and July 8 [DATE]
 Her visit is from July 1 to July 8 [DATE]
 
-TIME Annotation [TIME]
+## TIME Annotation [TIME]
 This refers to times smaller than a day.
 Absolute time expressions are to be tagged. Absolute time expression must indicate a specific segment of time i.e a particular minute and hour. Example:
 20 minutes after 10 [TIME]

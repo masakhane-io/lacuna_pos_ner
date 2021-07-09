@@ -4,9 +4,9 @@ Named Entity Recognition (NER) is a classification task that identifies phrases 
 
 * Example of NER: John [PERSON] is going to Kenya [LOCATION] on Monday [DATE]
 
-For annotation, we will be following the Message Understanding Conference (MUC-6) named entity definition guideline for identifying Persons, organizations, locations, dates and times, see https://cs.nyu.edu/faculty/grishman/NEtask20.book_1.html
+For annotation, we will be following the Message Understanding Conference (MUC-6) named entity definition [guideline](https://cs.nyu.edu/faculty/grishman/NEtask20.book_1.html) for identifying Persons, organizations, locations, dates and times. 
 
-You may also use https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v6.6.pdf 
+You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v6.6.pdf)
 
 ## Person Annotation [PER]
 
@@ -15,14 +15,14 @@ You may also use https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english
 	* Donald Trump Jr. [PER]
 
 * Family names should be tagged. Example:
-- The Kennedy [PER] family
-- Abiy Ahmed's [PER] wife.  
+	* The Kennedy [PER] family
+	* Abiy Ahmed's [PER] wife.  
 
-Some tokenization may separate "Ahmed" and " 's", in that case, we have, For example in CoNLL format, where 'O' is the no-entity label.
-Abiy, PER
-Ahmed, PER
-'s, O
-wife, O
+* Some tokenization may separate "Ahmed" and " 's", in that case, we have, For example in CoNLL format, where 'O' is the no-entity label.
+> Abiy, PER
+> Ahmed, PER
+> 's, O
+> wife, O
 
 * Personal names that refer to an organization, location, events, law, disease, prizes should not be tagged with PER tag. Example,
 St. Michael

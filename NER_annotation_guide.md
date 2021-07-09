@@ -75,46 +75,50 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 	* **University of California** [ORG] in **Los Angeles** [LOC]
 	
 * Non-GPE locations like mountain name, river name, body of water should be tagged e.g
-	* **River Niger** 
+	* **River Niger** [LOC]
 
-## DATE Annotation [DATE]
-Tag all absolute and relative dates or periods, including days, months, years. We could combine DATE and TIME annotation as [DATETIME]
-Absolute date expressions are to be tagged. Absolute date expression must indicate a specific segment of date i.e the particular day, season, financial quarters, years, decade or a particular century. Example:
-Monday [DATE]
-10th of October [DATE]
-April 6, 2020 [DATE]
-Summer [DATE]
-the Autumn [DATE] report
-Winter 2020 [DATE]
-fourth quarter [DATE]
-Third  quarter of 1991 [DATE]
-first half of the year [DATE]
-1995 [DATE]
-1980s [DATE]
-19th century [DATE]
-Relative time expressions should also be tagged. Example:
-July last year [DATE]
-this June [DATE]
-next summer [DATE]
-thirty days before the end of the year [DATE]
-Special days, such as holidays, that are referenced by name should be tagged. Example:
-because of the observance of All Saints' Day [DATE]
-The Christmas day [DATE]
-Expression indicating periods between two dates should be tagged. Example:
-We are on vacation between July 1 and July 8 [DATE]
-Her visit is from July 1 to July 8 [DATE]
+## DATE /TIME Annotation [DATE]
+* Tag all absolute and relative dates or periods, including days, months, years. We could combine DATE and TIME annotation as [DATETIME]
 
-## TIME Annotation [TIME]
-This refers to times smaller than a day.
-Absolute time expressions are to be tagged. Absolute time expression must indicate a specific segment of time i.e a particular minute and hour. Example:
-20 minutes after 10 [TIME]
-midnight [TIME]
-twelve o'clock noon [TIME]
-noon [TIME]
-5 p.m. EST [TIME]
-5:40 [TIME]
-Time expressions including the city time zone should be tagged. Example:
-1:30 p.m. Chicago time [TIME]
-Expression indicating periods between two times should be tagged. Example:
-The election is from 2 p.m. to 4 p.m. [TIME]
+* Absolute date expressions are to be tagged. Absolute date expression must indicate a specific segment of date i.e the particular day, season, financial quarters, years, decade or a particular century. Example:
+	* **Monday** [DATE]
+	* **10th of October** [DATE]
+	* **April 6, 2020** [DATE]
+	* **Summer** [DATE]
+	* the **Autumn** [DATE] report
+	* **Winter 2020** [DATE]
+	* **fourth quarter** [DATE]
+	* **Third  quarter of 1991** [DATE]
+	* **first half of the year** [DATE]
+	* **1995** [DATE]
+	* **1980s** [DATE]
+	* **19th century** [DATE]
+
+* Relative time expressions should also be tagged. Example:
+	* **July last year** [DATE]
+	* **this June** [DATE]
+	* **next summer** [DATE]
+	* **thirty days before the end of the year** [DATE]
+
+* Special days, such as holidays, that are referenced by name should be tagged. Example:
+	* because of the observance of **All Saints' Day** [DATE]
+	* The **Christmas day** [DATE]
+	
+* Expression indicating periods between two dates should be tagged. Example:
+	* We are on vacation **between July 1 and July 8** [DATE]
+	* Her visit is **from July 1 to July 8** [DATE]
+
+* TIME: this refers to times smaller than a day.
+* Absolute time expressions are to be tagged. Absolute time expression must indicate a specific segment of time i.e a particular minute and hour. Example:
+	* **20 minutes after 10** [DATE]
+	* **midnight** [DATE]
+	* **twelve o'clock noon** [DATE]
+	* **noon** [DATE]
+	* **5 p.m. EST** [DATE]
+	* **5:40** [DATE]
+
+* Time expressions including the city time zone should be tagged. Example:
+	* **1:30 p.m. Chicago time** [DATE]
+* Expression indicating periods between two times should be tagged. Example:
+	* The election is **from 2 p.m. to 4 p.m**. [DATE]
 

@@ -31,8 +31,8 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 
 	* St. Michael
 	* Nobel Prize
-	* George Washington University was established in 1821.
-	* The White House is located in Washington.
+	* **George Washington University**[ORG] was established in **1821**[DATE].
+	* The **White House**[LOC] is located in **Washington** [LOC].
 
 ## Organization Annotation [ORG]
 * Corporate designations such as "Co." are organizations. Example:
@@ -69,10 +69,10 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 
 * Place names can sometimes be part of an organization. The annotation will follow these guidelines: (a) If there is a corporate designator, it marks the end of the organization name; (b) if there is no corporate designator, the "of " is part of the organization name. Example:
  
-	* Hyundai of Korea, Inc. [ORG]
-	* Hyundai, Inc.[ORG] of **Korea** [LOC]
-	* John [PER] is working in BOSCH [ORG], **Germany** [LOC].
-	* University of California [ORG] in **Los Angeles** [LOC]
+	* **Hyundai of Korea, Inc.** [ORG]
+	* **Hyundai, Inc.**[ORG] of **Korea** [LOC]
+	* **John** [PER] is working in **BOSCH** [ORG], **Germany** [LOC].
+	* **University of California** [ORG] in **Los Angeles** [LOC]
 	
 * Non-GPE locations like mountain name, river name, body of water should be tagged e.g
 	* **River Niger** 

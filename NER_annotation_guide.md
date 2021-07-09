@@ -11,8 +11,8 @@ You may also use https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english
 ## Person Annotation [PER]
 
 * Personal names (including first names, middle names and last names) should be tagged excluding titles e.g Mr, Mrs, President, Professor, e.t.c. Examples:
-- President Donald Trump [PER]
-- Donald Trump Jr. [PER]
+	* President Donald Trump [PER]
+	* Donald Trump Jr. [PER]
 
 * Family names should be tagged. Example:
 - The Kennedy [PER] family

@@ -19,13 +19,13 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 	* Abiy Ahmed's [PER] wife.  
 
 * Some tokenization may separate "Ahmed" and " 's", in that case, we have, For example in CoNLL format, where 'O' is the no-entity label.
-> Abiy, PER
+	> Abiy, PER
 
-> Ahmed, PER
+	> Ahmed, PER
 
-> 's, O
+	> 's, O
 
-> wife, O
+	> wife, O
 
 * Personal names that refer to an organization, location, events, law, disease, prizes should not be tagged with PER tag. Example,
 St. Michael

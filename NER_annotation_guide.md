@@ -35,19 +35,21 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 	* The White House is located in Washington.
 
 ## Organization Annotation [ORG]
-Corporate designations such as "Co." are organizations. Example:
-The Bridgestone Sports Co. 
-Proper names that include sports teams, stock exchanges, multinational organizations, political parties, unions, government parastatals. Many of them comes in abbreviations e.g WHO, NCDC, NASDAQ, EU, AU
-The World Health Organization [ORG] (WHO [ORG] )
-AU [ORG]
-Proper names referring to facilities e.g factories, hotels, universities, airports, hospitals, churches except (a) the name is clearly the name of the structure/place and not of an organization, or (b) the name is known to be the name of an organization but is used only in reference to the facility as a structure/place. Example:
-The Frankfurt Airport Management has new rules for Aircraft.
-I am traveling from the Frankfurt Airport ...will not be tagged since it appeared as a LOC
-I will stay at the IBIS Hotel [ORG]
-The Supreme Court of Nigeria [ORG]
-The convict will be taken to court.
-The patient will be transferred to the General Hospital Ikoyi.
-The patient is in the hospital.
+* Corporate designations such as "Co." are organizations. Example:
+	* The Bridgestone Sports Co. 
+
+* Proper names that include sports teams, stock exchanges, multinational organizations, political parties, unions, government parastatals. Many of them comes in abbreviations e.g WHO, NCDC, NASDAQ, EU, AU
+	* The World Health Organization [ORG] (WHO [ORG] )
+	* AU [ORG]
+* Proper names referring to facilities e.g factories, hotels, universities, airports, hospitals, churches **except (a)** the name is clearly the name of the structure/place and not of an organization, **or (b)** the name is known to be the name of an organization but is used only in reference to the facility as a structure/place. Example:
+
+	* The Frankfurt Airport Management has new rules for Aircraft.
+	* I am traveling from the Frankfurt Airport ...will not be tagged since it appeared as a LOC
+	* I will stay at the IBIS Hotel [ORG]
+	* The Supreme Court of Nigeria [ORG]
+	* The convict will be taken to court.
+	* The patient will be transferred to the General Hospital Ikoyi.
+	* The patient is in the hospital.
 
 ## Location Annotation [LOC] - - GPE and non-GPE
 All country names,region names, state names and city names.

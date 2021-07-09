@@ -2,7 +2,7 @@
 
 Named Entity Recognition (NER) is a classification task that identifies phrases in a text that refer to entities or predefined categories (such as dates, person, organization and location names).
 
-* Example of NER: John [PERSON] is going to Kenya [LOCATION] on Monday [DATE]
+* Example of NER: _John_ [PERSON] is going to Kenya [LOCATION] on Monday [DATE]
 
 For annotation, we will be following the Message Understanding Conference (MUC-6) named entity definition [guideline](https://cs.nyu.edu/faculty/grishman/NEtask20.book_1.html) for identifying Persons, organizations, locations, dates and times. 
 

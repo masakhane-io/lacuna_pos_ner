@@ -10,7 +10,7 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 
 ## Person Annotation [PER]
 
-* Personal names (including first names, middle names and last names) should be tagged excluding titles e.g Mr, Mrs, President, Professor, e.t.c. Examples:
+* Personal names (including first names, middle names and last names) should be tagged **excluding titles** e.g Mr, Mrs, President, Professor, e.t.c. Examples:
 	* President Donald Trump [PER]
 	* Donald Trump Jr. [PER]
 
@@ -27,11 +27,12 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 
 	> wife, O
 
-* Personal names that refer to an organization, location, events, law, disease, prizes should not be tagged with PER tag. Example,
-St. Michael
-Nobel Prize
-George Washington University was established in 1821.
-The White House is located in Washington.
+* Personal names that refer to an organization, location, events, law, disease, prizes **should not** be tagged with PER tag. Example,
+
+	* St. Michael
+	* Nobel Prize
+	* George Washington University was established in 1821.
+	* The White House is located in Washington.
 
 ## Organization Annotation [ORG]
 Corporate designations such as "Co." are organizations. Example:

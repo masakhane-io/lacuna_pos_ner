@@ -2,7 +2,7 @@
 
 Named Entity Recognition (NER) is a classification task that identifies phrases in a text that refer to entities or predefined categories (such as dates, person, organization and location names).
 
-* Example of NER: <u> John </u> [PERSON] is going to <u> Kenya </u> [LOCATION] on <u> Monday </u> [DATE]
+* Example of NER: **John** [PERSON] is going to **Kenya** [LOCATION] on **Monday** [DATE]
 
 For annotation, we will be following the Message Understanding Conference (MUC-6) named entity definition [guideline](https://cs.nyu.edu/faculty/grishman/NEtask20.book_1.html) for identifying Persons, organizations, locations, dates and times. 
 
@@ -11,12 +11,12 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 ## Person Annotation [PER]
 
 * Personal names (including first names, middle names and last names) should be tagged **excluding titles** e.g Mr, Mrs, President, Professor, e.t.c. Examples:
-	* President Donald Trump [PER]
-	* Donald Trump Jr. [PER]
+	* President **Donald Trump** [PER]
+	* **Donald Trump Jr.** [PER]
 
 * Family names should be tagged. Example:
-	* The Kennedy [PER] family
-	* Abiy Ahmed's [PER] wife.  
+	* The **Kennedy** [PER] family
+	* Abiy **Ahmed's** [PER] wife.  
 
 * Some tokenization may separate "Ahmed" and " 's", in that case, we have, For example in CoNLL format, where 'O' is the no-entity label.
 	> Abiy, PER
@@ -36,11 +36,11 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 
 ## Organization Annotation [ORG]
 * Corporate designations such as "Co." are organizations. Example:
-	* The Bridgestone Sports Co. 
+	* The **Bridgestone Sports Co.** 
 
 * Proper names that include sports teams, stock exchanges, multinational organizations, political parties, unions, government parastatals. Many of them comes in abbreviations e.g WHO, NCDC, NASDAQ, EU, AU
-	* The World Health Organization [ORG] (WHO [ORG] )
-	* AU [ORG]
+	* The **World Health Organization** [ORG] (**WHO** [ORG] )
+	* **AU** [ORG]
 * Proper names referring to facilities e.g factories, hotels, universities, airports, hospitals, churches **except (a)** the name is clearly the name of the structure/place and not of an organization, **or (b)** the name is known to be the name of an organization but is used only in reference to the facility as a structure/place. Example:
 
 	* The Frankfurt Airport Management has new rules for Aircraft.

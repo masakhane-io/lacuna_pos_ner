@@ -2,7 +2,7 @@
 
 
 ### Team & Partners
-Markup : * Peter Nabende (Makerere University) - Principal Investigator
+* Peter Nabende (Makerere University) - Principal Investigator
 * [David Ifeoluwa Adelani](https://dadelani.github.io/) (Masakhane; Saarland University) - NER Coordinator
 * Bamba Dione (Masakhane; University of Bergen) - POS Coordinator
 * Jade Abbott (Masakhane; Retro Rabbit) - Data & Translation Coordinator

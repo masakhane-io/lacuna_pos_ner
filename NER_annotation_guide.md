@@ -9,18 +9,21 @@ For annotation, we will be following the Message Understanding Conference (MUC-6
 You may also use https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v6.6.pdf 
 
 ## Person Annotation [PER]
-Personal names (including first names, middle names and last names) should be tagged excluding titles e.g Mr, Mrs, President, Professor, e.t.c. Examples:
+
+* Personal names (including first names, middle names and last names) should be tagged excluding titles e.g Mr, Mrs, President, Professor, e.t.c. Examples:
 President Donald Trump [PER]
 Donald Trump Jr. [PER]
 Family names should be tagged. Example:
 The Kennedy [PER] family
 Abiy Ahmed's [PER] wife.  
+
 Some tokenization may separate "Ahmed" and " 's", in that case, we have, For example in CoNLL format, where 'O' is the no-entity label.
 Abiy, PER
 Ahmed, PER
 's, O
 wife, O
-Personal names that refer to an organization, location, events, law, disease, prizes should not be tagged with PER tag. Example,
+
+* Personal names that refer to an organization, location, events, law, disease, prizes should not be tagged with PER tag. Example,
 St. Michael
 Nobel Prize
 George Washington University was established in 1821.

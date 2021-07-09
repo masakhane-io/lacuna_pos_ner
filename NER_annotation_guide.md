@@ -31,8 +31,8 @@ You may also use [LDC guideline](https://www.ldc.upenn.edu/sites/www.ldc.upenn.e
 
 	* St. Michael
 	* Nobel Prize
-	* **George Washington University**[ORG] was established in **1821**[DATE].
-	* The **White House**[LOC] is located in **Washington** [LOC].
+	* **George Washington University** [ORG] was established in **1821** [DATE].
+	* The **White House** [LOC] is located in **Washington** [LOC].
 
 ## Organization Annotation [ORG]
 * Corporate designations such as "Co." are organizations. Example:

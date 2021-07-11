@@ -6,7 +6,7 @@
 	This directory contains Kinyarwanda data to be annotated with named entities and part of speech tags. 
 	The data was collected from an online Kinyarwanda newspaper called IGIHE: https://igihe.com/
 
-	The dataset consists of 520 articles with 7,999 sentences and 215,559 tokens. 
+	The dataset consists of 520 articles published between Jan 2021 - July 2021. The data contains 7,999 sentences and 215,559 tokens. 
 
 	
 	Number of articles per category:

@@ -1,4 +1,4 @@
-# NEWS IN ENGLISH TO BE TRANSLATED TO LUO
+# LUO NEWS DATASET(Translated from English)
 
 ## About
 
@@ -12,18 +12,20 @@ The news items were published between 1/9/2019 - 31/5/2021.
 
 The news items was collected from the websites between 13/05/2021 - 31/5/2021.
 
+The news items were then translated to Dholuo.
+
 ### Categories
 |Category | Count | 
 | --------| -------| 
  | Music and entertainment | 	88 | 
 | Accidents, disasters and deaths | 	148 | 
 | Arts and Culture | 	744 | 
-| Business	| 2059 | 
+| Business	| 2061 | 
 | Crime and Legal	| 292| 
-| Education	| 83| 
+| Education	| 84| 
 | Gender	| 68| 
 | Health	|  36| 
-| Politics and Government	|  1417| 
+| Politics and Government	|  1420| 
 | Sports	|  1133 | 
 | World News | 	52 | 
-| *Grand Total*	|  *6120* | 
+| *Grand Total*	|  *6126* | 

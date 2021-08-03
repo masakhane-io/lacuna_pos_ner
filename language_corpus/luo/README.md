@@ -17,15 +17,15 @@ The news items were then translated to Dholuo.
 ### Categories
 |Category | Count | 
 | --------| -------| 
- | Music and entertainment | 	88 | 
-| Accidents, disasters and deaths | 	148 | 
-| Arts and Culture | 	744 | 
-| Business	| 2061 | 
-| Crime and Legal	| 292| 
-| Education	| 84| 
-| Gender	| 68| 
-| Health	|  36| 
-| Politics and Government	|  1420| 
-| Sports	|  1133 | 
+| Accidents, disasters and deaths | 	170 | 
+| Arts and Culture | 	790 | 
+| Business	| 2100 | 
+| Crime and Legal	| 480| 
+| Education	| 500 | 
+| Gender	| 92 | 
+| Health	|  251 | 
+| Music and entertainment | 	155 | 
+| Politics and Government	|  1620| 
+| Sports	|  1161 | 
 | World News | 	52 | 
-| *Grand Total*	|  *6126* | 
+| *Grand Total*	|  *7371* | 

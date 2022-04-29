@@ -1,6 +1,10 @@
 
 # Lacuna Funded Project: [MasakhaNER](https://www.masakhane.io/lacuna-fund/masakhaner-know-our-names)
 
+### Datasets developed by the projects are:
+* [MAFAND-MT: Masakhane Anglo & Franco African News Corpus for Machine Translation](https://github.com/masakhane-io/lafand-mt/tree/main/data/text_files)
+* [MasakhaNER 2.0: Named Entity Recognition datasets for 20 African languages](https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0/data)
+* [African POS datasets](https://github.com/masakhane-io/lacuna_pos_ner/tree/main/data)
 
 ### Team & Partners
 * Peter Nabende (Makerere University) - Principal Investigator
